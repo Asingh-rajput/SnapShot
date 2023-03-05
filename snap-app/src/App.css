@@ -1,0 +1,59 @@
+.image-container {
+  display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.flickr-image:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+body {
+  background-color: white;
+}
+.heading {
+  color: blue;
+  margin-left: 600px;
+  margin-top: 25px;
+  padding-left: 30px;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Rampart One', cursive;
+}
+.input {
+  background-color: rgb(231, 174, 105);
+  color: rgb(32, 218, 125);
+  margin-left:500px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-left: 70px;
+  font-size: 30px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  outline: none;
+  border-bottom-style: groove;
+}
+.srhbtn {
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+}
+.btn{
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  margin-left:10px;
+  margin-bottom: 30px;
+}
+#btn1{
+  margin-left: 530px;
+}
+#btn2{
+  margin-left: 10px;
+}
+#btn3{
+  margin-left: 10px;
+}
+#btn4{
+  margin-left: 10px;
+}
